@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{ float a,b,phepcong,pheptru,phepnhan,phepchia;
+printf("nhap so thuc a:");
+scanf("%f", &a);
+printf("nhap so thuc b:");
+scanf("%f", &b);
+phepcong= a+b;
+pheptru=a-b;
+phepchia=a/b;
+phepnhan=a*b;
+printf("ket qua phep cong,tru,nhan,chia lan luot la:%f,%f,%f,%f",phepcong,pheptru,phepnhan,phepchia);
+	getchar();
+	return 0;
+}

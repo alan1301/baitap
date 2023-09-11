@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{int a,b,c;
+printf("nhap ngay:");
+scanf("%d", &a);
+printf("nhap thang:");
+scanf("%d", &b);
+printf("nhap nam:");
+scanf("%d", &c);
+printf(" ngay thang nam la:%d/%d/%d ",a,b,c);
+	getchar();
+	return 0;
+}
