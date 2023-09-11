@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{
+int a,b,c,d;
+a=5;
+b=6;
+c=9;
+d=10*a*a+5*b*c+c*c;
+printf("d bang:%d",d);
+
+	getchar();
+	return 0;
+}
