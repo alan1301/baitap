@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{ float a,chuvi,dientich;
+printf("nhap vao ban kinh:");
+scanf("%f", &a);
+float b;
+b= 3.14;
+dientich= b*a*a;
+chuvi=a*2*b;
+printf("dien tich hinh tron la :%f",dientich);
+printf("chu vi hinh tron la: %f",chuvi);
+	getchar();
+	return 0;
+}
