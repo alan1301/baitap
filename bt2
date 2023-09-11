@@ -1,0 +1,27 @@
+#include <stdio.h>
+ 
+
+int main(int argc, char **argv)
+{
+    char rollno[16];
+
+int age;
+
+char name[50];
+
+char address[200];
+printf("Nhap ten:");
+scanf("%s", &name);
+printf("nhap tuoi:");
+scanf("%d", &age);
+printf("nhap ma SV");
+scanf("%s", &rollno);
+printf(" nhap dia chi");
+scanf("%s", &address);
+printf ("| Ten  %s         | Tuoi  %d | Mq SV    %s | dia chi %s      |",name,age,rollno,address);
+    getchar();
+	return 0;
+}
+
+
+

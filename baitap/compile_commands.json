@@ -1,0 +1,5 @@
+[{
+  "file": "/Users/alanstars1301/Documents/GitHub/baitap/baitap/baitap/main.c",
+  "directory": "/Users/alanstars1301/Documents/GitHub/baitap/baitap/baitap",
+  "command": "clang -c /Users/alanstars1301/Documents/GitHub/baitap/baitap/baitap/main.c -o /Users/alanstars1301/Documents/GitHub/baitap/baitap/baitap/main.c.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }]
